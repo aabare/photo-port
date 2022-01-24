@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-{
-=======
 { 
->>>>>>> gh-pages
   "name": "photo-port",
   "version": "0.1.0",
   "private": true,
@@ -23,14 +19,7 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-<<<<<<< HEAD
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-=======
     "extends": "react-app"
->>>>>>> gh-pages
   },
   "browserslist": {
     "production": [
