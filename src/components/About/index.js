@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
   return (
@@ -21,3 +22,18 @@ function About() {
 }
 
 export default About;
+=======
+// importing cover image
+import coverImage from "../../assets/cover/cover-image.jpg";
+
+function About() {
+    return (
+        <section className="my-5">
+            <h1 id="about">Who am I?</h1>
+            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+        </section>
+    );
+}
+
+export default About; 
+>>>>>>> gh-pages
